@@ -1,0 +1,39 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    flex: 0 0 15%;
+}
+.main { 
+    flex: 0 0 85%;
+}
+
+.content{
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+}
+
+.menu-item{
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.btn-round{
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}

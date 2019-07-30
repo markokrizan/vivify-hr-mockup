@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee list</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="employee-list.css">
+</head>
+<body>
+    <div class="grid-container">
+            <div class="header grid-item">
+                <div class = "nav-items">
+                    <div class = "nav-left">
+                            <img src = "../logo.png" class = "logo-image">
+                            <h3 class = "logo-text">VivifyHR</h3>
+                    </div>
+                    <div class = "nav-right">
+                        <a href="" >LOGOUT</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class = "content">
+                <div class="menu grid-item">
+                    <div class = "menu-item"><a href = "#">PEOPLE</a></div>
+                    <div class = "menu-item"><a href = "#">STUFF</a></div>
+                </div>
+                <div class="main grid-item">
+                    <div class = "nav-items">
+                        <div class = "nav-left">
+                                <h4>Employees</h4>
+                        </div>
+                        <div class = "search">
+                            <div class = "input-group">
+                                <label for="search">Search</label>
+                                <input type = "text" name = "search" class = "text-input"/>
+                            </div>
+                            <button class = "btn-round bg-purple">+</button>
+                            <label>Add new</label>
+                        </div>
+                        
+                    </div>
+                    <table>
+                        <thead>
+                            <th>
+                                <select class = "col-sorter">
+                                    <option selected disabled>First name</option>
+                                    <option>Desc</option>
+                                    <option>Asc</option>
+                                </select>
+                            </th>
+                            <th>
+                                <select class = "col-sorter">
+                                    <option selected disabled>Last name</option>
+                                    <option>Desc</option>
+                                    <option>Asc</option>
+                                </select>
+                            </th>
+                            <th>
+                                <select class = "col-sorter">
+                                    <option selected disabled>Email</option>
+                                    <option>Desc</option>
+                                    <option>Asc</option>
+                                </select>
+                            </th>
+                            <th>
+                                <select class = "col-sorter">
+                                    <option selected disabled>Role</option>
+                                    <option>Desc</option>
+                                    <option>Asc</option>
+                                </select>
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Name</td>
+                                <td>Name</td>
+                                <td>email@vivifyideas.com</td>
+                                <td>Baby full stack developer</td>
+                            </tr>
+                            <tr>
+                                <td>Ime prezime</td>
+                                <td>Name</td>
+                                <td>email@vivifyideas.com</td>
+                                <td>Baby full stack developer</td>
+                            </tr>
+                            <tr>
+                                <td>Ime prezime</td>
+                                <td>Name</td>
+                                <td>email@vivifyideas.com</td>
+                                <td>Baby full stack developer</td>
+                            </tr>
+                            <tr>
+                                <td>Ime prezime</td>
+                                <td>Name</td>
+                                <td>email@vivifyideas.com</td>
+                                <td>Baby full stack developer</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
+        </div>
+    </div>
+</body>
+</html>
